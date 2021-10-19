@@ -1,20 +1,7 @@
-const { application } = require('express')
 const express = require('express')
-const Todo = require('../../../Todo')
 const TodoRouter = express.Router()
 
-
-/*
-TodoRouter.get('/static', (req, res) => {
-    console.log(__dirname)
-    res.render('index')
-})
-*/
-
-TodoRouter.get('/asdf', (req, res) => {
-    res.redirect('/static/index.html')
-})
-
+const Todo = require('../../models/Todo')
 
 
 
