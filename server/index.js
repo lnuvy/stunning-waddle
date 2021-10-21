@@ -14,7 +14,7 @@ var corsOptions = {  // CORS 옵션
     credentials: true // 3000포트의 접근 허용
 }
 
-const CONNECT_URL = 'mongodb://localhost:27017/hulee'
+const CONNECT_URL = 'mongodb://localhost:27017/mandelujeo'
 mongoose.connect(CONNECT_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
